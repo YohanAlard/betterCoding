@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'typeface-roboto';
-
+import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -11,6 +11,7 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <AccessAlarmIcon></AccessAlarmIcon>
         <a
           className="App-link"
           href="https://reactjs.org"

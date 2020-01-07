@@ -1,28 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import 'typeface-roboto';
-import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
-const App: React.FC = () => {
+import * as React from 'react';
+import './App.scss';
+import Brand from './common/brand/Brand';
+
+function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <AccessAlarmIcon></AccessAlarmIcon>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Brand name="Better Coding"></Brand>
+      <div>
+        this is my content
+      </div>
     </div>
   );
 }
 
 export default App;
+
